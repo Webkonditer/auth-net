@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1899301f-364a-46de-b08c-a327a609c40c" name="Changes" comment="Работают роли в клиенте">
+    <list default="true" id="1899301f-364a-46de-b08c-a327a609c40c" name="Changes" comment="Добавляются роли в оба токена">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource/src/main/java/com/example/resource/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../resource/src/main/java/com/example/resource/ResourceServerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/server/config/DefaultSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/server/config/DefaultSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../resource" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,7 +66,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServerApplication">
+  <component name="RunManager" selected="Spring Boot.ResourceApplication">
     <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.client.ClientApplication" />
@@ -98,7 +99,7 @@
       <updated>1709223271755</updated>
       <workItem from="1709223272855" duration="22000000" />
       <workItem from="1709295078673" duration="76000" />
-      <workItem from="1709298757149" duration="10990000" />
+      <workItem from="1709298757149" duration="11995000" />
     </task>
     <task id="LOCAL-00001" summary="Рабочая связка сервера авторизации, ресурсного и клиента.">
       <option name="closed" value="true" />
@@ -124,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709310146616</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавляются роли в оба токена">
+      <option name="closed" value="true" />
+      <created>1709311140297</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709311140297</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +143,7 @@
     <MESSAGE value="Рабочая связка сервера авторизации, ресурсного и клиента." />
     <MESSAGE value="Передаются роли в токен" />
     <MESSAGE value="Работают роли в клиенте" />
-    <option name="LAST_COMMIT_MESSAGE" value="Работают роли в клиенте" />
+    <MESSAGE value="Добавляются роли в оба токена" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавляются роли в оба токена" />
   </component>
 </project>
