@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1899301f-364a-46de-b08c-a327a609c40c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resource/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resource/src/main/java/com/example/resource/ArticlesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resource/src/main/java/com/example/resource/ResourceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resource/src/main/java/com/example/resource/ResourceServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resource/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/server/DefaultSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/server/ServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/test/java/com/example/server/ServerApplicationTests.java" afterDir="false" />
+    <list default="true" id="1899301f-364a-46de-b08c-a327a609c40c" name="Changes" comment="Рабочая связка сервера авторизации, ресурсного и клиента.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/server/DefaultSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/server/config/DefaultSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +27,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2d348OOhM6kmj0fU9WfFMEv3SfH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,26 +39,26 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "graalvm-ce-17",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;graalvm-ce-17&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1ab0adb2f232d6b561867765702b4bfd&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -83,7 +66,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ClientApplication">
+  <component name="RunManager" selected="Spring Boot.ResourceApplication">
     <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.client.ClientApplication" />
@@ -114,11 +97,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709223271755</updated>
-      <workItem from="1709223272855" duration="8318000" />
+      <workItem from="1709223272855" duration="22000000" />
+      <workItem from="1709295078673" duration="76000" />
+      <workItem from="1709298757149" duration="4288000" />
     </task>
+    <task id="LOCAL-00001" summary="Рабочая связка сервера авторизации, ресурсного и клиента.">
+      <option name="closed" value="true" />
+      <created>1709231923616</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709231923616</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Рабочая связка сервера авторизации, ресурсного и клиента." />
+    <option name="LAST_COMMIT_MESSAGE" value="Рабочая связка сервера авторизации, ресурсного и клиента." />
   </component>
 </project>
