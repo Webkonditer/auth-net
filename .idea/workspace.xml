@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1899301f-364a-46de-b08c-a327a609c40c" name="Changes" comment="Рабочая связка сервера авторизации, ресурсного и клиента.">
+    <list default="true" id="1899301f-364a-46de-b08c-a327a609c40c" name="Changes" comment="Передаются роли в токен">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/server/DefaultSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/server/config/DefaultSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/server/config/DefaultSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/server/config/DefaultSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ResourceApplication">
+  <component name="RunManager" selected="Spring Boot.ClientApplication">
     <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.client.ClientApplication" />
@@ -99,7 +98,7 @@
       <updated>1709223271755</updated>
       <workItem from="1709223272855" duration="22000000" />
       <workItem from="1709295078673" duration="76000" />
-      <workItem from="1709298757149" duration="4288000" />
+      <workItem from="1709298757149" duration="9996000" />
     </task>
     <task id="LOCAL-00001" summary="Рабочая связка сервера авторизации, ресурсного и клиента.">
       <option name="closed" value="true" />
@@ -109,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709231923616</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Передаются роли в токен">
+      <option name="closed" value="true" />
+      <created>1709303185962</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709303185962</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Рабочая связка сервера авторизации, ресурсного и клиента." />
-    <option name="LAST_COMMIT_MESSAGE" value="Рабочая связка сервера авторизации, ресурсного и клиента." />
+    <MESSAGE value="Передаются роли в токен" />
+    <option name="LAST_COMMIT_MESSAGE" value="Передаются роли в токен" />
   </component>
 </project>
